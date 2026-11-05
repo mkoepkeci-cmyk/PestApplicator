@@ -16,7 +16,8 @@ npm run dev
 npm run build
 ```
 
-Upload the `dist/` folder to any static host (Netlify drag-and-drop, GitHub Pages, Vercel, or your own web host).
+Pushing to `main` deploys automatically to GitHub Pages: https://mkoepkeci-cmyk.github.io/PestApplicator/ (workflow in `.github/workflows/deploy.yml`).
+You can also upload the `dist/` folder to any other static host.
 The build uses relative paths, so it works from a subfolder too.
 
 ## Where things live
